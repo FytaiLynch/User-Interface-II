@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,9 +50,9 @@ table {
 
 
 /* Add CSS styling here */
-*{
-    /* border: 1px dotted red; */
-}
+/* *{
+    font-family: 'Brygada 1918', serif;
+} */
 
 .topNav{
     display: flex;
@@ -62,7 +62,9 @@ table {
     padding: 2rem 2rem;
     margin-bottom: 1rem;
 }
-
+h1{
+    font-family: 'Brygada 1918', serif;
+}
 nav h1{
     width: 100%;
     padding: 1rem;
@@ -77,6 +79,8 @@ nav a{
     text-decoration: none;
     width: 10%;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
 }
 nav .navBar{
     display: flex;
@@ -103,25 +107,27 @@ h2{
     margin: 0.5rem 0;
     margin-left: 30rem;
     text-align: center;
-
-}
-h2{
     font-size: 2rem;
     width: 50%;
     text-align: left;
     padding-left: 1rem;
+    font-family: 'Brygada 1918', serif;
 }
+
 
 button{
     font-size: 1.3rem;
     width: 20%;
     margin-bottom: 1rem;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 0.3rem;
 }
 p{
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 2rem;
     word-spacing: 0.35rem;
     width: 50%;
+    font-family: 'Brygada 1918', serif;
 }
 
 .image{
@@ -156,9 +162,10 @@ footer{
 
 footer p{
     padding-top: 1rem;
-    margin-left: 30rem;
+    margin-left: 50rem;
     font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
 }
 footer a{
-    margin-left: 35rem;
+    margin-left: 55rem;
 }
