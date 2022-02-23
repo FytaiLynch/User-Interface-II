@@ -50,9 +50,6 @@ table {
 
 
 /* Add CSS styling here */
-/* *{
-    font-family: 'Brygada 1918', serif;
-} */
 
 .topNav{
     display: flex;
@@ -81,6 +78,10 @@ nav a{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 1.4rem;
+}
+
+nav a:hover{
+    background-color: white;
 }
 nav .navBar{
     display: flex;
