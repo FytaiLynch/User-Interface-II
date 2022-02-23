@@ -54,7 +54,7 @@ table {
     /* border: 1px dotted red; */
 }
 
-nav{
+.topNav{
     display: flex;
     flex-direction: column;
     background-color: #E7D8B7;
@@ -68,8 +68,9 @@ nav h1{
     padding: 1rem;
     font-size: 3rem;
 }
+
 nav a{
-    background-color: rgb(255, 173, 66);
+    background-color: rgb(221, 188, 142);
     color: black;
     padding: 0.8rem;
     margin-left: 2.5rem;
@@ -88,6 +89,9 @@ nav .navBar{
 }
 
 .text{
+    position: relative;
+    left: 1.875rem;
+    border: 3px dotted #dad37d;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -97,7 +101,7 @@ nav .navBar{
 h2{
     padding: 1rem 0;
     margin: 0.5rem 0;
-    margin-left: 5rem;
+    margin-left: 11rem;
     text-align: center;
 
 }
@@ -111,7 +115,6 @@ h2{
 button{
     font-size: 1.3rem;
     width: 20%;
-    margin-right: 20rem;
     margin-bottom: 1rem;
 }
 p{
@@ -145,3 +148,17 @@ p{
     width: 25%;
 }
 
+footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #E7D8B7;
+}
+
+footer p{
+    padding-top: 1rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+}
+footer a{
+    margin-left: 35rem;
+}
